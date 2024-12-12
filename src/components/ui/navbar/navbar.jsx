@@ -1,21 +1,38 @@
-
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           Iron MBTI
-        </a>
-        <div className="navbar-nav mb-2 me-auto"></div>
-        <ul className="navbar-nav me-auto mb-lg-0 pe-5">
-          <li className="nav-item pe-5">Personality test</li>
-          <li className="nav-item pe-5">Other tests</li>
-          <li className="nav-item pe-5">Our Team</li>
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <Link className="nav-link" aria-current="page" to="/">
+              Personality Test
+            </Link>
+            <Link className="nav-link" to="/">
+              Other Tests
+            </Link>
 
-        </ul>
-
-        
+            <Link className="nav-link" to="/">
+              Our team
+            </Link>
+            
+          </div>
+        </div>
       </div>
     </nav>
   );
