@@ -1,11 +1,11 @@
+import Navbar from "./components/ui/navbar/navbar"
+
 function App() {
  
 
   return (
     <>
-    <div className="animate-bounce">
-      Hola 
-    </div>
+   <Navbar/>
     </>
   )
 }
