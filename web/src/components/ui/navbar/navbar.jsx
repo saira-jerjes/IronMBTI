@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand ms-5 me-5" to="/">
           Iron MBTI
         </Link>
         <button
@@ -18,8 +18,8 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup" style={{ float: 'right'}}>
+          <div className="navbar-nav" >
             <Link className="nav-link" aria-current="page" to='personality-test'>
               Personality Test
             </Link>
