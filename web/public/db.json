@@ -1,6 +1,7 @@
 [
     {
-        "id": "pregunta1",
+        "id": "1",
+        "question": "pregunta1",
         "answers": [
             { "title": "Answer 1", "value": 1 },
             { "title": "Answer 2", "value": 2 },
@@ -9,7 +10,8 @@
         ]
     },
     {
-        "id": "pregunta2",
+        "id": "2",
+        "question": "pregunta2",
         "answers": [
             { "title": "Answer 1", "value": 1 },
             { "title": "Answer 2", "value": 2 },
@@ -18,7 +20,8 @@
         ]
     },
     {
-        "id": "pregunta3",
+        "id": "3",
+        "question": "pregunta3",
         "answers": [
             { "title": "Answer 1", "value": 1 },
             { "title": "Answer 2", "value": 2 },
@@ -27,7 +30,8 @@
         ]
     },
     {
-        "id": "pregunta4",
+        "id": "4",
+        "question": "pregunta4",
         "answers": [
             { "title": "Answer 1", "value": 1 },
             { "title": "Answer 2", "value": 2 },
@@ -36,7 +40,8 @@
         ]
     },
     {
-        "id": "pregunta5",
+        "id": "5",
+        "question": "pregunta5",
         "answers": [
             { "title": "Answer 1", "value": 1 },
             { "title": "Answer 2", "value": 2 },
@@ -45,7 +50,8 @@
         ]
     },
     {
-        "id": "pregunta6",
+        "id": "6",
+        "question": "pregunta6",
         "answers": [
             { "title": "Answer 1", "value": 1 },
             { "title": "Answer 2", "value": 2 },
@@ -54,7 +60,8 @@
         ]
     },
     {
-        "id": "pregunta7",
+        "id": "7",
+        "question": "pregunta7",
         "answers": [
             { "title": "Answer 1", "value": 1 },
             { "title": "Answer 2", "value": 2 },
@@ -63,7 +70,8 @@
         ]
     },
     {
-        "id": "pregunta8",
+        "id": "8",
+        "question": "pregunta8",
         "answers": [
             { "title": "Answer 1", "value": 1 },
             { "title": "Answer 2", "value": 2 },
@@ -72,12 +80,23 @@
         ]
     },
     {
-        "id": "pregunta9",
+        "id": "9",
+        "question": "pregunta9",
         "answers": [
             { "title": "Answer 1", "value": 1 },
             { "title": "Answer 2", "value": 2 },
             { "title": "Answer 3", "value": 3 },
             { "title": "Answer 4", "value": 4 }
+        ]
+    },
+    {
+        "id": "10",
+        "question": "pregunta10",
+        "answers": [
+            { "title":"Answer 1", "value": 1},
+            { "title":"Answer 2", "value": 2},
+            { "title":"Answer 3", "value": 3},
+            { "title":"Answer 4", "value": 4}
         ]
     }
 ]

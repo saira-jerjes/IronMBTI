@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { getQuestions } from "../services/questions-api";
+import { PageLayout, Question } from "../components";
 
 function TestPage() {
     const [questions, setQuestions] = useState(null);
@@ -16,14 +17,16 @@ function TestPage() {
             })
     }, []);
 
+ 
     if (isLoading) {
         return <div>Loading...</div>
     }
 
     return (
-        <div>
-            {JSON.stringify(questions, null, 2)}
-        </div>
+        <PageLayout className="mt-5 ">
+            {<Question {...questions[0]}/>}
+            {/* crear handle */}
+        </PageLayout>
     )
 
 }

@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
-function PageLayout ({ children }) {
+function PageLayout ({ children, className }) {
     return(
-        <div className="container">{children}</div>
+        <div className={className}>{children}</div>
     )
 }
 export default PageLayout;
