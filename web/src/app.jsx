@@ -14,7 +14,7 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path='/' element={
-        <PageLayout className={"que voltereates"}>
+        <PageLayout>
           <HomePage/>
 
         </PageLayout>
