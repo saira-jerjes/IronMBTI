@@ -11,7 +11,7 @@ function Answer({ title, value, score, index, onClick}) {
 
     return (
         <>
-            <button type="button" className="btn btn-primary w-100 answer-btn" data-bs-toggle="button" value={value} onClick={handleClick}>{`${positionLetter[index]}) ${title}`}</button>
+            <button type="button" className="btn btn-answer w-100 py-3" data-bs-toggle="button" value={value} onClick={handleClick}>{`${positionLetter[index]}) ${title}`}</button>
         </>
     )
 }

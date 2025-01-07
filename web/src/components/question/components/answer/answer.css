@@ -1,0 +1,13 @@
+.btn-answer {
+    border-radius: 20px; 
+    font-size: 1.1rem;
+    font-family: "Poppins";
+    background-color: white;
+    color: #545353;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-answer:hover {
+    background-color: #d4a8ed;
+    color: #545353;
+}

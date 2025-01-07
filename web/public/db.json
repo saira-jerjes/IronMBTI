@@ -1,17 +1,17 @@
 [
     {
         "id": "1",
-        "question": "pregunta1",
+        "question": "¿Cómo te describirías?",
         "answers": [
-            { "title": "Answer 1", "value": 1, "score": 1 },
-            { "title": "Answer 2", "value": 2, "score": 2 },
-            { "title": "Answer 3", "value": 3, "score": 3 },
-            { "title": "Answer 4", "value": 4, "score": 4 }
+            { "title": "Doberman vibes", "value": 1, "score": 3 },
+            { "title": "Golden Retriever vibes", "value": 2, "score": 4 },
+            { "title": "Ginger cat vibes", "value": 3, "score": 2 },
+            { "title": "Teddy vibes", "value": 4, "score": 1 }
         ]
     },
     {
         "id": "2",
-        "question": "pregunta2",
+        "question": "pregunta 2",
         "answers": [
             { "title": "Answer 1", "value": 1, "score": 1 },
             { "title": "Answer 2", "value": 2, "score": 2 },
@@ -21,7 +21,7 @@
     },
     {
         "id": "3",
-        "question": "pregunta3",
+        "question": "pregunta 3",
         "answers": [
             { "title": "Answer 1", "value": 1, "score": 1 },
             { "title": "Answer 2", "value": 2, "score": 2 },
@@ -31,7 +31,7 @@
     },
     {
         "id": "4",
-        "question": "pregunta4",
+        "question": "pregunta 4",
         "answers": [
             { "title": "Answer 1", "value": 1, "score": 1 },
             { "title": "Answer 2", "value": 2, "score": 2 },
@@ -41,7 +41,7 @@
     },
     {
         "id": "5",
-        "question": "pregunta5",
+        "question": "pregunta 5",
         "answers": [
             { "title": "Answer 1", "value": 1, "score": 1 },
             { "title": "Answer 2", "value": 2, "score": 2 },
@@ -51,7 +51,7 @@
     },
     {
         "id": "6",
-        "question": "pregunta6",
+        "question": "pregunta 6",
         "answers": [
             { "title": "Answer 1", "value": 1, "score": 1 },
             { "title": "Answer 2", "value": 2, "score": 2 },
@@ -61,7 +61,7 @@
     },
     {
         "id": "7",
-        "question": "pregunta7",
+        "question": "pregunta 7",
         "answers": [
             { "title": "Answer 1", "value": 1, "score": 1 },
             { "title": "Answer 2", "value": 2, "score": 2 },
@@ -71,7 +71,7 @@
     },
     {
         "id": "8",
-        "question": "pregunta8",
+        "question": "pregunta 8",
         "answers": [
             { "title": "Answer 1", "value": 1, "score": 1 },
             { "title": "Answer 2", "value": 2, "score": 2 },
@@ -81,7 +81,7 @@
     },
     {
         "id": "9",
-        "question": "pregunta9",
+        "question": "pregunta 9",
         "answers": [
             { "title": "Answer 1", "value": 1, "score": 1 },
             { "title": "Answer 2", "value": 2, "score": 2 },
@@ -91,7 +91,7 @@
     },
     {
         "id": "10",
-        "question": "pregunta10",
+        "question": "pregunta 10",
         "answers": [
             { "title": "Answer 1", "value": 1, "score": 1 },
             { "title": "Answer 2", "value": 2, "score": 2 },

@@ -1,11 +1,8 @@
 import { Route, Routes } from "react-router-dom"
-import { HomePage, OtherTestsPage, TeamPage, TestPage } from "./pages"
+import { HomePage, OtherTestsPage, TeamPage, TestPage, ResultPage } from "./pages"
 import { Navbar, PageLayout } from "./components"
 
-
-
-
-
+ 
 function App() {
  
 
@@ -23,6 +20,7 @@ function App() {
       <Route path='/personality-test' element={<TestPage />} />
       <Route path='/other-tests' element={<OtherTestsPage />} />
       <Route path='/our-team' element={<TeamPage />} />
+      <Route path='/result' element={<ResultPage />} />
     </Routes>
     </>
   )
