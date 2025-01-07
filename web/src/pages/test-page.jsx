@@ -3,25 +3,24 @@ import { getQuestions } from "../services/questions-api";
 import { PageLayout, Question } from "../components";
 
 function TestPage() {
+    const MAX_QUESTIONS = 10; 
     const [questions, setQuestions] = useState(null);
     const isLoading = questions === null;
     const [actualQuestionIndex, setActualQuestionIndex] = useState(0);
     const [totalScore, setTotalScore] = useState(0);
-
 
     const getPersonality = (score) => {
         if (score <= 10) return "Introvert";
         if (score <= 20) return "Extrovert";
         if (score <= 30) return "Analytical";
         if (score <= 40) return "Creative";
-        // return "You're nothing.... " añadir gif
     };
+    //añadir gif
 
-
-    useEffect(() => { 
+    useEffect(() => {
         getQuestions()
-            .then(questions => {
-                setQuestions(questions);
+            .then(fetchedQuestions => {
+                setQuestions(fetchedQuestions.slice(0, MAX_QUESTIONS));
             })
             .catch(err => {
                 console.error(err);
@@ -57,8 +56,6 @@ function TestPage() {
             />
         </PageLayout>
     );
-
- 
 }
 
 export default TestPage;

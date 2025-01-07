@@ -3,100 +3,100 @@
         "id": "1",
         "question": "pregunta1",
         "answers": [
-            { "title": "Answer 1", "value": 1 },
-            { "title": "Answer 2", "value": 2 },
-            { "title": "Answer 3", "value": 3 },
-            { "title": "Answer 4", "value": 4 }
+            { "title": "Answer 1", "value": 1, "score": 1 },
+            { "title": "Answer 2", "value": 2, "score": 2 },
+            { "title": "Answer 3", "value": 3, "score": 3 },
+            { "title": "Answer 4", "value": 4, "score": 4 }
         ]
     },
     {
         "id": "2",
         "question": "pregunta2",
         "answers": [
-            { "title": "Answer 1", "value": 1 },
-            { "title": "Answer 2", "value": 2 },
-            { "title": "Answer 3", "value": 3 },
-            { "title": "Answer 4", "value": 4 }
+            { "title": "Answer 1", "value": 1, "score": 1 },
+            { "title": "Answer 2", "value": 2, "score": 2 },
+            { "title": "Answer 3", "value": 3, "score": 3 },
+            { "title": "Answer 4", "value": 4, "score": 4 }
         ]
     },
     {
         "id": "3",
         "question": "pregunta3",
         "answers": [
-            { "title": "Answer 1", "value": 1 },
-            { "title": "Answer 2", "value": 2 },
-            { "title": "Answer 3", "value": 3 },
-            { "title": "Answer 4", "value": 4 }
+            { "title": "Answer 1", "value": 1, "score": 1 },
+            { "title": "Answer 2", "value": 2, "score": 2 },
+            { "title": "Answer 3", "value": 3, "score": 3 },
+            { "title": "Answer 4", "value": 4, "score": 4 }
         ]
     },
     {
         "id": "4",
         "question": "pregunta4",
         "answers": [
-            { "title": "Answer 1", "value": 1 },
-            { "title": "Answer 2", "value": 2 },
-            { "title": "Answer 3", "value": 3 },
-            { "title": "Answer 4", "value": 4 }
+            { "title": "Answer 1", "value": 1, "score": 1 },
+            { "title": "Answer 2", "value": 2, "score": 2 },
+            { "title": "Answer 3", "value": 3, "score": 3 },
+            { "title": "Answer 4", "value": 4, "score": 4 }
         ]
     },
     {
         "id": "5",
         "question": "pregunta5",
         "answers": [
-            { "title": "Answer 1", "value": 1 },
-            { "title": "Answer 2", "value": 2 },
-            { "title": "Answer 3", "value": 3 },
-            { "title": "Answer 4", "value": 4 }
+            { "title": "Answer 1", "value": 1, "score": 1 },
+            { "title": "Answer 2", "value": 2, "score": 2 },
+            { "title": "Answer 3", "value": 3, "score": 3 },
+            { "title": "Answer 4", "value": 4, "score": 4 }
         ]
     },
     {
         "id": "6",
         "question": "pregunta6",
         "answers": [
-            { "title": "Answer 1", "value": 1 },
-            { "title": "Answer 2", "value": 2 },
-            { "title": "Answer 3", "value": 3 },
-            { "title": "Answer 4", "value": 4 }
+            { "title": "Answer 1", "value": 1, "score": 1 },
+            { "title": "Answer 2", "value": 2, "score": 2 },
+            { "title": "Answer 3", "value": 3, "score": 3 },
+            { "title": "Answer 4", "value": 4, "score": 4 }
         ]
     },
     {
         "id": "7",
         "question": "pregunta7",
         "answers": [
-            { "title": "Answer 1", "value": 1 },
-            { "title": "Answer 2", "value": 2 },
-            { "title": "Answer 3", "value": 3 },
-            { "title": "Answer 4", "value": 4 }
+            { "title": "Answer 1", "value": 1, "score": 1 },
+            { "title": "Answer 2", "value": 2, "score": 2 },
+            { "title": "Answer 3", "value": 3, "score": 3 },
+            { "title": "Answer 4", "value": 4, "score": 4 }
         ]
     },
     {
         "id": "8",
         "question": "pregunta8",
         "answers": [
-            { "title": "Answer 1", "value": 1 },
-            { "title": "Answer 2", "value": 2 },
-            { "title": "Answer 3", "value": 3 },
-            { "title": "Answer 4", "value": 4 }
+            { "title": "Answer 1", "value": 1, "score": 1 },
+            { "title": "Answer 2", "value": 2, "score": 2 },
+            { "title": "Answer 3", "value": 3, "score": 3 },
+            { "title": "Answer 4", "value": 4, "score": 4 }
         ]
     },
     {
         "id": "9",
         "question": "pregunta9",
         "answers": [
-            { "title": "Answer 1", "value": 1 },
-            { "title": "Answer 2", "value": 2 },
-            { "title": "Answer 3", "value": 3 },
-            { "title": "Answer 4", "value": 4 }
+            { "title": "Answer 1", "value": 1, "score": 1 },
+            { "title": "Answer 2", "value": 2, "score": 2 },
+            { "title": "Answer 3", "value": 3, "score": 3 },
+            { "title": "Answer 4", "value": 4, "score": 4 }
         ]
     },
     {
         "id": "10",
         "question": "pregunta10",
         "answers": [
-            { "title":"Answer 1", "value": 1},
-            { "title":"Answer 2", "value": 2},
-            { "title":"Answer 3", "value": 3},
-            { "title":"Answer 4", "value": 4}
+            { "title": "Answer 1", "value": 1, "score": 1 },
+            { "title": "Answer 2", "value": 2, "score": 2 },
+            { "title": "Answer 3", "value": 3, "score": 3 },
+            { "title": "Answer 4", "value": 4, "score": 4 }
         ]
     }
 ]
