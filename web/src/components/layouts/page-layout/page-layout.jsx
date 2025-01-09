@@ -1,7 +1,8 @@
-// eslint-disable-next-line react/prop-types
+/* eslint-disable react/prop-types */
+import bckg from '../../../assets/imgs/background-banner.webp'
 function PageLayout ({ children, className }) {
     return(
-        <div className={className}>{children}</div>
+        <div style={{ backgroundImage: `url(${bckg})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', height: '100vh'}}  className={className} >{children}</div>
     )
 }
 export default PageLayout;

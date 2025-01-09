@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-function Button ({ style }) {
+function Button () {
     return ( 
-        <Link className="link-light link-underline-opacity-0  m-3 btn btn-info btn-lg rounded rounded-pill" to='personality-test'>Personality Test</Link>
+        <Link className="link-underline-opacity-0  m-3 btn rounded rounded-pill" style={{backgroundColor: 'white', opacity:'30%', width: '200px'}} to='personality-test'>Llévame al test</Link>
     )
 }
 export default Button; 

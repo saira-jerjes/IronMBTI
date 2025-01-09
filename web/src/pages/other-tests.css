@@ -1,0 +1,23 @@
+.other-tests-container{
+background: linear-gradient(0deg, #A8EDEA, #F8F9FA); 
+display: flex;
+min-height: 100vh;
+justify-content: center;
+font-family: "Poppins", serif;
+}
+
+.title{
+  margin-bottom: 80px;
+}
+
+.buttonStyle {
+    margin-top: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #F8F9FA;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px
+  }
+

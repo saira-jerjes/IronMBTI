@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
+import logo from '../../../assets/imgs/logo-web.png'
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div className="container-fluid">
-        <Link className="navbar-brand ms-5 me-5" to="/">
-          Iron MBTI
+    <nav className="navbar navbar-expand-lg fixed-top transparent ">
+      <div className="container-fluid  d-flex align-items-center">
+        <Link className="navbar-brand ms-5" to="/">
+          <img src={logo} alt="logo" />
         </Link>
         <button
           className="navbar-toggler"
@@ -18,17 +19,18 @@ function Navbar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup" style={{ float: 'right'}}>
+        <div className="collapse navbar-collapse d-flex justify-content-center w-100 position-fixed" id="navbarNavAltMarkup">
           <div className="navbar-nav" >
-            <Link className="nav-link" aria-current="page" to='personality-test'>
-              Personality Test
+            <Link className="nav-link" aria-current="page" to='personality-test' style={{color: 'white'}}>
+              Test de personalidad
             </Link>
-            <Link className="nav-link" aria-current="page" to='other-tests'>
-              Other Tests
+            <Link className="nav-link" aria-current="page" to='other-tests' style={{color: 'white'}}>
+              Otros tests
             </Link>
-
-            <Link className="nav-link" aria-current="page" to='our-team'>
-              Our team
+            <Link className="nav-link" aria-current="page" to='our-team' style={{color: 'white'}}>
+              Equipo
+            </Link><Link className="nav-link" aria-current="page" to='our-team' style={{color: 'transparent'}}>
+            
             </Link>
             
           </div>
