@@ -11,92 +11,90 @@
     },
     {
         "id": "2",
-        "question": "pregunta 2",
+        "question": "¿Qué tipo de programador eres?",
         "answers": [
-            { "title": "Answer 1", "value": 1, "score": 1 },
-            { "title": "Answer 2", "value": 2, "score": 2 },
-            { "title": "Answer 3", "value": 3, "score": 3 },
-            { "title": "Answer 4", "value": 4, "score": 4 }
+            { "title": "Naz* del código, todos los bigotiños bien puestos y todo bien enfilado.", "value": 1, "score": 4 },
+            { "title": "Copilot, sálvame.", "value": 2, "score": 3 },
+            { "title": "Tengo TOC y me sé todos los trucos del VS Code 😎.", "value": 3, "score": 2 },
+            { "title": "Soy un espíritu libre, fluyo con el código.", "value": 4, "score": 1 }
         ]
     },
     {
         "id": "3",
-        "question": "pregunta 3",
+        "question": "¿Cuál es tu tortura favorita?",
         "answers": [
-            { "title": "Answer 1", "value": 1, "score": 1 },
-            { "title": "Answer 2", "value": 2, "score": 2 },
-            { "title": "Answer 3", "value": 3, "score": 3 },
-            { "title": "Answer 4", "value": 4, "score": 4 }
+            { "title": "Vaquear", "value": 1, "score": 4 },
+            { "title": "No dejar tiempo en clase para labs", "value": 2, "score": 3 },
+            { "title": "No me gusta la tortura, vivan las señas", "value": 3, "score": 2 },
+            { "title": "Callarme y que sufran, me gusta el caos", "value": 4, "score": 1 }
         ]
     },
     {
         "id": "4",
-        "question": "pregunta 4",
+        "question": "¿Cómo eres en una relación?",
         "answers": [
-            { "title": "Answer 1", "value": 1, "score": 1 },
-            { "title": "Answer 2", "value": 2, "score": 2 },
-            { "title": "Answer 3", "value": 3, "score": 3 },
-            { "title": "Answer 4", "value": 4, "score": 4 }
+            { "title": "Estamos siempre juntos", "value": 1, "score": 4 },
+            { "title": "Nos llevamos genial, siempre está mirando por mi", "value": 2, "score": 2 },
+            { "title": "Estamos juntos pero cada uno tiene su espacio", "value": 3, "score": 3 },
+            { "title": "Soy muy privado", "value": 4, "score": 1 }
         ]
     },
     {
         "id": "5",
-        "question": "pregunta 5",
+        "question": "¿En qué lado pones la consola del navegador?",
         "answers": [
-            { "title": "Answer 1", "value": 1, "score": 1 },
-            { "title": "Answer 2", "value": 2, "score": 2 },
-            { "title": "Answer 3", "value": 3, "score": 3 },
-            { "title": "Answer 4", "value": 4, "score": 4 }
+            { "title": "Abajo", "value": 1, "score": 4 },
+            { "title": "Al lado", "value": 2, "score": 3 },
+            { "title": "Según el día, me es indiferente", "value": 3, "score": 2 },
+            { "title": "Se me suele olvidar, donde la ponga el teacher", "value": 4, "score": 1 }
         ]
     },
     {
         "id": "6",
-        "question": "pregunta 6",
+        "question": "¿Cómo sueles hablar?",
         "answers": [
-            { "title": "Answer 1", "value": 1, "score": 1 },
-            { "title": "Answer 2", "value": 2, "score": 2 },
-            { "title": "Answer 3", "value": 3, "score": 3 },
-            { "title": "Answer 4", "value": 4, "score": 4 }
+            { "title": "Hablo a toda leche, pero muy correcto y me enrollo más que una persiana", "value": 1, "score": 4 },
+            { "title": "Soy de calle, me salen palabrotas y hablo rápido", "value": 2, "score": 2 },
+            { "title": "Hablo a 0.5 y voy aplatanándome", "value": 3, "score": 3 },
+            { "title": "Solo hablo si me preguntan", "value": 4, "score": 1 }
         ]
     },
     {
         "id": "7",
-        "question": "pregunta 7",
+        "question": "¿Qué tipo de graciosete eres en clase?",
         "answers": [
-            { "title": "Answer 1", "value": 1, "score": 1 },
-            { "title": "Answer 2", "value": 2, "score": 2 },
-            { "title": "Answer 3", "value": 3, "score": 3 },
-            { "title": "Answer 4", "value": 4, "score": 4 }
+            { "title": "Hago chistes todo el rato", "value": 1, "score": 4 },
+            { "title": "Intento hacer bromas inteligentes para mantener la atención", "value": 2, "score": 3 },
+            { "title": "Mis bromas no suelen salir bien", "value": 3, "score": 2 },
+            { "title": "No hago bromas, soy una persona seria.", "value": 4, "score": 1 }
         ]
     },
     {
         "id": "8",
-        "question": "pregunta 8",
+        "question": "¿Qué frase podrían escuchar tus compañeros de ti?",
         "answers": [
-            { "title": "Answer 1", "value": 1, "score": 1 },
-            { "title": "Answer 2", "value": 2, "score": 2 },
-            { "title": "Answer 3", "value": 3, "score": 3 },
-            { "title": "Answer 4", "value": 4, "score": 4 }
+            { "title": "¡No te preocupes, lo vuelvo a repetir!", "value": 1, "score": 4 },
+            { "title": "Dudas, comentarios, insultos", "value": 2, "score": 3 },
+            { "title": "¡Madre mía, vaya lío! Pero a ver, vamos a arreglarlo…", "value": 3, "score": 2 },
+            { "title": "(Una sonrisa en silencio)", "value": 4, "score": 1 }
         ]
     },
     {
         "id": "9",
-        "question": "pregunta 9",
+        "question": "Elige un meme",
         "answers": [
-            { "title": "Answer 1", "value": 1, "score": 1 },
-            { "title": "Answer 2", "value": 2, "score": 2 },
-            { "title": "Answer 3", "value": 3, "score": 3 },
-            { "title": "Answer 4", "value": 4, "score": 4 }
+            { "title": "", "value": 1, "score": 4,  "image": "https://i.pinimg.com/1200x/fe/84/9f/fe849ff613ec78a5484156c770dcf9b3.jpg"  },
+            { "title": "", "value": 2, "score": 3, "image": "https://pbs.twimg.com/media/GCqsX3HWUAAIjMR?format=jpg&name=medium" },
+            { "title": "", "value": 3, "score": 2, "image": "https://i.pinimg.com/1200x/7a/de/13/7ade137fdef0436d1c54860715aa619b.jpg" },
+            { "title": "", "value": 4, "score": 1, "image": "https://s1.abcstatics.com/media/MM/2022/06/17/meme-1.jpg" }
         ]
     },
     {
         "id": "10",
-        "question": "pregunta 10",
+        "question": "¿Eres de MAC o de WINDOWS?",
         "answers": [
-            { "title": "Answer 1", "value": 1, "score": 1 },
-            { "title": "Answer 2", "value": 2, "score": 2 },
-            { "title": "Answer 3", "value": 3, "score": 3 },
-            { "title": "Answer 4", "value": 4, "score": 4 }
+            { "title": "Apple all the way, Team Mac.", "value": 1, "score": 4 },
+            { "title": "No pienso gastar un pastón en la manzanita.", "value": 2, "score": 2 }
         ]
     }
 ]

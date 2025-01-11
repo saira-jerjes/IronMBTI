@@ -1,13 +1,73 @@
-.btn-answer {
-    border-radius: 20px; 
+.answer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px; 
+    margin-top: 20px;
+  }
+  
+  
+  .answer-image-button {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 150px;
+    transition: transform 0.2s ease;
+  }
+  
+
+  .btn-answer:focus,
+  .btn-answer:active {
+    background-color: white !important;
+    border-color: transparent !important;
+    outline: none !important;
+  }
+  
+  .btn-answer:hover {
+    background-color: #8872a1;
+    color: white;
+  }
+  
+  .btn-answer {
+    border-radius: 30px;
     font-size: 1.1rem;
     font-family: "Poppins";
     background-color: white;
     color: #545353;
-    transition: background-color 0.3s, color 0.3s;
-}
+    transition: background-color 0.2s, color 0.2s ease;
+  }
 
-.btn-answer:hover {
-    background-color: #d4a8ed;
-    color: #545353;
-}
+  .answer-box {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .answer-box:hover {
+    background-color: #8872a1;
+  }
+  
+  .answer-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    object-fit: cover;
+  }
+  
+  .answer-box span {
+    font-size: 1rem;
+    color: #333;
+  }
+  

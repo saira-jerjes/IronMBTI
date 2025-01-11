@@ -1,0 +1,11 @@
+.link-underline-opacity-0 {
+    background-color: white;
+    opacity: 50%;
+    width: 200px;
+    transition: opacity 0.3s ease; /* Transición suave */
+  }
+  
+  .link-underline-opacity-0:hover {
+    opacity: 100%;
+    background-color: white;
+  }

@@ -1,38 +1,30 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../../../assets/imgs/logo-web.png'
+import './navbar.css'
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top transparent ">
+    <nav className="navbar navbar-expand-lg fixed-top transparent" style={{ zIndex: 10 }}>
       <div className="container-fluid  d-flex align-items-center">
-        <Link className="navbar-brand ms-5" to="/">
-          <img src={logo} alt="logo" />
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        <NavLink className="navbar-brand ms-5" to="/" style={{ zIndex: 20 }} >
+          <img src={logo} alt="logo" style={{ cursor: 'pointer' }} />
+        </NavLink>
+  
         <div className="collapse navbar-collapse d-flex justify-content-center w-100 position-fixed" id="navbarNavAltMarkup">
           <div className="navbar-nav" >
-            <Link className="nav-link" aria-current="page" to='personality-test' style={{color: 'white'}}>
+            <NavLink className="nav-link" aria-current="page" to='personality-test'  style={({ isActive }) => {
+              return isActive ? { color: "white", opacity: '100%' } : { color: "white",  opacity: '60%' };}}>
               Test de personalidad
-            </Link>
-            <Link className="nav-link" aria-current="page" to='other-tests' style={{color: 'white'}}>
+            </NavLink>
+            <NavLink className="nav-link" aria-current="page" to='other-tests' style={({ isActive }) => {
+              return isActive ? { color: "white", opacity: '100%' } : { color: "white",  opacity: '60%' };}}>
               Otros tests
-            </Link>
-            <Link className="nav-link" aria-current="page" to='our-team' style={{color: 'white'}}>
+            </NavLink>
+            <NavLink className="nav-link" aria-current="page" to='our-team'  style={({ isActive }) => {
+              return isActive ? { color: "white", opacity: '100%' } : { color: "white",  opacity: '60%' };}}>
               Equipo
-            </Link><Link className="nav-link" aria-current="page" to='our-team' style={{color: 'transparent'}}>
-            
-            </Link>
-            
+            </NavLink>
+
           </div>
         </div>
       </div>
