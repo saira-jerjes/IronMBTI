@@ -28,7 +28,7 @@ function Answer({ title, value, score, index, onClick, image }) {
                     value={value}
                     onClick={handleClick}
                 >
-                    {`${positionLetter[index]}) ${title}`}
+                    {!image && `${positionLetter[index]}) ${title}`}
                 </button>
             )}
         </>

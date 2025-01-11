@@ -1,58 +1,69 @@
-.other-tests-container{
-display: flex;
-min-height: 100vh;
-justify-content: center;
-font-family: "Poppins", serif;
+.other-tests-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  font-family: "Poppins", serif;
 }
 
-.title{
+.title {
   margin-bottom: 80px;
-  color:white;
+  color: white;
 }
 
 .buttonStyle {
-    margin-top: 30px;
-    padding: 10px 20px;
-    cursor: pointer;
-    background-color: #F8F9FA;
-    color: black;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px
-  }
+  margin-top: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
 
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal-content {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 500px;
-    width: 80%;
-    position: relative;
-  }
-  
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 30px;
-    background: none;
-    border: none;
-    color: #333;
-    cursor: pointer;
-  }
-  
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 80%;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.answer-button {
+  border-radius: 10px;
+  gap: 10;
+  padding: 15px;
+  font-size: 16px;
+  background-color: white;
+  color: #545353;
+  border: 2px solid #545353;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
 .text-up {
   transform: translateY(-180px);
 }

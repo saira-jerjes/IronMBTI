@@ -24,9 +24,13 @@
 }
 .question-text {
     font-size: 2rem;
-    font-weight: semibold;
+    font-weight: 500;
     font-family: "Poppins", serif;
     color: white;
     margin: 30px 0px;
     text-align: center;
+}
+
+.question-container {
+    width: 40%;
 }

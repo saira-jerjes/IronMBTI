@@ -21,7 +21,7 @@ function ResultPage() {
       case "Cristian":
         return {
           title: "Que tu gato no te apague el pc como a Cristian",
-          description: "El friki de los gatos y maestro del lenguaje mímico. Amante de los gatos, de lo friki y de las normas. Si faltas a clase, él ya te puso la falta antes de que te dieras cuenta. Cuando el profe hace preguntas y nadie tiene ni idea, ahí está él, haciendo gestos y mímicas discretas para echarte un cable sin que se note demasiado. Es el aliado que todos querrían en una partida de charadas.",
+          description: "El friki de los gatos y maestro del lenguaje mímico. Amante de los gatos, de lo friki y de las normas. Si faltas a clase, él ya te puso la falta antes de que te dieras cuenta. Cuando el profe hace preguntas y nadie tiene ni idea, ahí está él, haciendo gestos y mímicas discretas para echarte un cable sin que se note demasiado. Es el aliado que todos querrían en una partida de Pictionary.",
           image: cristianImg 
         };
       case "Julio":
