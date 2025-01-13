@@ -18,7 +18,7 @@ function Answer({ title, value, score, index, onClick, image }) {
                     onClick={handleClick}
                     style={{ backgroundImage: `url(${image})` }}
                 >
-                    <div className="answer-title">{`${positionLetter[index]}) ${title}`}</div>
+                    <div className="answer-title">{`${title}`}</div>
                 </div>
             ) : (
                 <button

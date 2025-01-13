@@ -47,3 +47,8 @@
     margin-top: 20px;
     font-family: "Poppins", serif;
 }
+
+.toggle-description-btn {
+    border: #545353;
+    border-radius: 8px;
+}

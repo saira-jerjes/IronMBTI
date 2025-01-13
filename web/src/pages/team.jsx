@@ -8,75 +8,86 @@ function TeamPage() {
   return (
     <>
       <PageLayout>
-        <div className="info-page-container d-flex align-items-center justify-content-center vh-100">
-          <div className="position-relative w-100 h-100">
-            <div
-              className="card amy-card position-absolute"
-              style={{
-                top: "190px",
-                left: "50px",
-                maxWidth: "80%",
-                height: "250px",
-                padding: "20px",
-                border: "none",
-                backgroundColor: "transparent",
-              }}
+      <div className="team-page">
+      <h2 className="team-title">Our Team</h2>
+      <div className="team-container">
+        <div className="team-card">
+          <img
+            src={julioImg}
+            alt="Michael Doe"
+            className="team-image"
+          />
+          <h3 className="team-name">Michael Doe</h3>
+          <p className="team-position">
+            Chief Product Officer at Moon Studios
+          </p>
+          <div className="team-socials">
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon twitter"
             >
-              <div className="row align-items-center">
-                <div className="col-md-3">
-                  <img
-                    src={carlosImg} 
-                    className="img-fluid rounded-start profile-pic"
-                    alt="..."
-                  />
-                </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h4 className="card-title">Amy Lauren</h4>
-                    <p className="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div
-              className="card saira-card position-absolute"
-              style={{
-                bottom: "80px",
-                right: "50px",
-                maxWidth: "80%",
-                height: "250px",
-                padding: "20px",
-                border: "none",
-                backgroundColor: "transparent",
-              }}
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon facebook"
             >
-              <div className="row align-items-center">
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h4 className="card-title">Saira Jerjes</h4>
-                    <p className="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <img
-                    src={julioImg} 
-                    className="img-fluid rounded-start profile-pic"
-                    alt="..."
-                  />
-                </div>
-              </div>
-            </div>
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon instagram"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
           </div>
         </div>
+        <div className="team-card">
+          <img
+            src={carlosImg}
+            alt="Valeria Doe"
+            className="team-image"
+          />
+          <h3 className="team-name">Valeria Doe</h3>
+          <p className="team-position">
+            Product Owner at Zilla Themes
+          </p>
+          <div className="team-socials">
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon twitter"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon facebook"
+            >
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon instagram"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
       </PageLayout>
     </>
   );

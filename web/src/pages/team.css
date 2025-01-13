@@ -1,8 +1,58 @@
-.info-page-container {
-
-}
-
-.profile-pic {
-height: auto;
-width: 300px;
-}
+  .team-title {
+    font-size: 2rem;
+    color: transparent;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 80px;
+  }
+  
+  .team-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .team-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .team-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .team-position {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .team-socials {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+  }
+  
+  .social-icon {
+    margin: 0 5px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+  }
+  

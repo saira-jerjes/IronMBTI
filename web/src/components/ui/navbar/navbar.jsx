@@ -23,6 +23,10 @@ function Navbar() {
               return isActive ? { color: "white", opacity: '100%' } : { color: "white",  opacity: '60%' };}}>
               Equipo
             </NavLink>
+            <NavLink className="nav-link" aria-current="page" to='personalities'  style={({ isActive }) => {
+              return isActive ? { color: "white", opacity: '100%' } : { color: "white",  opacity: '60%' };}}>
+              Personalidades
+            </NavLink>
 
           </div>
         </div>

@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { HomePage, OtherTestsPage, TeamPage, TestPage, ResultPage } from "./pages"
+import { HomePage, OtherTestsPage, TeamPage, TestPage, ResultPage, PersonalitiesPage } from "./pages"
 import { Navbar, PageLayout } from "./components"
 
  
@@ -21,6 +21,8 @@ function App() {
       <Route path='/other-tests' element={<OtherTestsPage />} />
       <Route path='/our-team' element={<TeamPage />} />
       <Route path='/result' element={<ResultPage />} />
+      <Route path="/personalities" element={<PersonalitiesPage />} />
+
     </Routes>
     </>
   )
