@@ -1,7 +1,7 @@
 import PageLayout from "../components/layouts/page-layout/page-layout";
 import "./team.css";
-import julioImg from "../assets/imgs/result/Julio.webp";
-import carlosImg from "../assets/imgs/result/Carlos.webp";
+import amyImg from "../assets/imgs/amyimg.jpeg";
+import sairaImg from "../assets/imgs/sairaimg.jpeg";
 
 
 function TeamPage() {
@@ -9,81 +9,30 @@ function TeamPage() {
     <>
       <PageLayout>
       <div className="team-page">
-      <h2 className="team-title">Our Team</h2>
       <div className="team-container">
         <div className="team-card">
           <img
-            src={julioImg}
-            alt="Michael Doe"
-            className="team-image"
+            src={amyImg}
+            alt="Amy Lauren"
+            className="team-image-amy"
           />
-          <h3 className="team-name">Michael Doe</h3>
+          <h2 className="team-name">Amy Lauren</h2>
           <p className="team-position">
-            Chief Product Officer at Moon Studios
+          <b>Científica N°2</b> <br></br>
+          La 1 ya estaba cogido 🙃
           </p>
-          <div className="team-socials">
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-icon twitter"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-icon facebook"
-            >
-              <i className="fab fa-facebook"></i>
-            </a>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-icon instagram"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
-          </div>
         </div>
         <div className="team-card">
           <img
-            src={carlosImg}
-            alt="Valeria Doe"
-            className="team-image"
+            src={sairaImg}
+            alt="Saira Jerjes"
+            className="team-image-sai"
           />
-          <h3 className="team-name">Valeria Doe</h3>
+          <h2 className="team-name">Saira Jerjes</h2>
           <p className="team-position">
-            Product Owner at Zilla Themes
+          <b>Científica N°1</b> <br></br>
+          O algo de eso me han dicho 🤷🏻‍♀️
           </p>
-          <div className="team-socials">
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-icon twitter"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-icon facebook"
-            >
-              <i className="fab fa-facebook"></i>
-            </a>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-icon instagram"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
-          </div>
         </div>
       </div>
     </div>
